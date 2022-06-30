@@ -69,4 +69,4 @@ const Layout = {
   MainLayout,
 };
 
-export default Layout;
+export default MainLayout;
