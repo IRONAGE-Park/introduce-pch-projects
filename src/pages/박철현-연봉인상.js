@@ -1,9 +1,12 @@
 import React from "react";
 import { MainLayout } from "./styles/Layout.styles";
 
+import _INVAIZ_STUDIO from '../images/INVAIZ_Studio.png';
+
 const BlogPage = ({ data }) => {
   return (
     <MainLayout pageTitle="연봉인상">
+      <img src={_INVAIZ_STUDIO}/>
      <h1>박철현 연봉 인상 발표 나와... 네티즌 충격!</h1>
      <p>(주)인바이즈 소속 박철현은 이번 (주)인바이즈의 LG 밋업이 잘 성사된 관계로 연봉 인상이 결정되었다고 한다.</p>
      <p>또 이준석 대표는 박철현에게 이번 PoC 지원금 2,000만원과 뭐 발표 잘해서 돈주는 우수 발표상 전액 박철현에게 지급하기로 했따.</p>
